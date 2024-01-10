@@ -8,7 +8,7 @@ def postgres_engine():
     dengan PostgreSQL. Sesuaikan username, password,
     host, dan database name dengan milik masing - masing
     """
-    engine = create_engine("postgresql://postgres:cobapassword@172.23.189.101/data_wrangling")
+    engine = create_engine("postgresql://[USERNAME]:[PASSWORD]@[HOSTNAME]/[DB_NAME]")
 
     return engine
 
